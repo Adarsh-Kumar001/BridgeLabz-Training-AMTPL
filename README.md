@@ -11,4 +11,10 @@
 - Made this github repo to update daily task.
 - Also to upload daily practise files in practise branch
 
+# 23/10/2025
+
+- Learned about C# fundamentals
+- Loops, conditional statements, data types..
+- Implemented Git commands to branch, merge, pull, push 
+
   
