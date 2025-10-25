@@ -15,6 +15,11 @@
 
 - Learned about C# fundamentals
 - Loops, conditional statements, data types..
-- Implemented Git commands to branch, merge, pull, push 
+- Implemented Git commands to branch, merge, pull, push
+
+# 25/10/25
+
+- Practised coding questions in c#
+- Revised dot net and c# fundamentals 
 
   
