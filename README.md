@@ -20,6 +20,11 @@
 # 25/10/25
 
 - Practised coding questions in c#
-- Revised dot net and c# fundamentals 
+- Revised dot net and c# fundamentals
+
+# 27/10/25
+
+- Learned about oops in C#
+- Practised Coding oops concepts in C#
 
   
