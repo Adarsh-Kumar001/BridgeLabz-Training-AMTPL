@@ -3,9 +3,9 @@
 class Animal 
 {
 
-    public int NumberOfLegs;
-    public string Name;
-    public string Colour;
+    public int NumberOfLegs { get; set; }  //auto implements getter setter
+    public string Name { get; set; }      
+    public string Colour { get; set; }
 
     public Animal(int n, string name, string colour) {
 
@@ -31,7 +31,7 @@ class Animal
 
 class WildAnimals : Animal
 {
-    public WildAnimals(int n, string name, string colour) : base(n, name, colour) 
+    public WildAnimals(int n, string name, string colour) : base(n, name, colour)   //new constructor inhertited from base class
     {
 
        //data saved
@@ -61,6 +61,13 @@ class OOPS
 
         lion.getAnimalData();
         lion.Desc();
+
+        WildAnimals tiger = new WildAnimals(0,"not known","not known");  
+        tiger.Name = "tiger";        //setter usage
+        tiger.NumberOfLegs = 4;          //setter
+        tiger.Colour = "orage with black strips";   //setter
+
+        tiger.getAnimalData();
 
         Console.ReadLine();
 
