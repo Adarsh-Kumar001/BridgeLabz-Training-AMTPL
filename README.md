@@ -29,6 +29,8 @@
 
 # 29/10/25
 
-- 
+- Implemented OOPS's 4 pillars in C#
+- Encaptulation, Inheritance and its types, Polymorphism and abstraction all implemented
+- Learned about several key concepts of C# like static, upcasting.
 
   
