@@ -6,7 +6,7 @@
     <RootNamespace>BridgeLabz_Training</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>BridgeLabz_Training.iheritance.MultiLevel.MultiLevelInheritanceDemo</StartupObject>
+    <StartupObject>BridgeLabz_Training.abstraction.UsingAbstractClass.DemoAbstractionUsingAbstractClass</StartupObject>
   </PropertyGroup>
 
 </Project>
