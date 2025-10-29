@@ -1,0 +1,15 @@
+C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\bin\Debug\net8.0\BridgeLabz-Training.exe
+C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\bin\Debug\net8.0\BridgeLabz-Training.deps.json
+C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\bin\Debug\net8.0\BridgeLabz-Training.runtimeconfig.json
+C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\bin\Debug\net8.0\BridgeLabz-Training.dll
+C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\bin\Debug\net8.0\BridgeLabz-Training.pdb
+C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\obj\Debug\net8.0\BridgeLabz-Training.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\obj\Debug\net8.0\BridgeLabz-Training.AssemblyInfoInputs.cache
+C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\obj\Debug\net8.0\BridgeLabz-Training.AssemblyInfo.cs
+C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\obj\Debug\net8.0\BridgeLabz-Training.csproj.CoreCompileInputs.cache
+C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\obj\Debug\net8.0\BridgeLabz-Training.sourcelink.json
+C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\obj\Debug\net8.0\BridgeLabz-Training.dll
+C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\obj\Debug\net8.0\refint\BridgeLabz-Training.dll
+C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\obj\Debug\net8.0\BridgeLabz-Training.pdb
+C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\obj\Debug\net8.0\BridgeLabz-Training.genruntimeconfig.cache
+C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\obj\Debug\net8.0\ref\BridgeLabz-Training.dll
