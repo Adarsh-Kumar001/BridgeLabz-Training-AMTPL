@@ -6,7 +6,7 @@
     <RootNamespace>BridgeLabz_Training</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>BridgeLabz_Training.abstraction.Interface.DemoInterface</StartupObject>
+    <StartupObject>BridgeLabz_Training.abstraction.MultipleInterfaces_Multiple_Inheritance_.DemoMultipleInterface</StartupObject>
   </PropertyGroup>
 
 </Project>
