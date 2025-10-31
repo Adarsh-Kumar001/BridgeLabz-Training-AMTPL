@@ -4,22 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BridgeLabz_Training.polymorphism.Overriding
+namespace BridgeLabz_Training.abstraction.Interface
 {
-
-
-    internal class OverridingDemo
+    internal class DemoInterface
     {
         static void Main(string[] args)
         {
-            Animal a1 = new Animal();
-            a1.Eats();
-
             Dog d1 = new Dog();
-            d1.Eats();
+            d1.Eat();
+            d1.Colour();
         }
-
     }
-
-   
 }

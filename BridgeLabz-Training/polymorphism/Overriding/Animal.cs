@@ -6,20 +6,11 @@ using System.Threading.Tasks;
 
 namespace BridgeLabz_Training.polymorphism.Overriding
 {
-
-
-    internal class OverridingDemo
+    internal class Animal
     {
-        static void Main(string[] args)
+        public virtual void Eats()
         {
-            Animal a1 = new Animal();
-            a1.Eats();
-
-            Dog d1 = new Dog();
-            d1.Eats();
+            Console.WriteLine("Animal is eating");
         }
-
     }
-
-   
 }
