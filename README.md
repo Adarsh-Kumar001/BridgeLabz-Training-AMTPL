@@ -36,7 +36,14 @@
 # 30/10/25
 
 - Implemented more OOPS in C#
-- Abstraction and polymorphism were implemenetd 
+- Abstraction and polymorphism were implemenetd
+
+# 31/10/25
+
+- Implemented Interfaces and Multiple Inheritance using Multiple Interfaces
+- Studies abour enum
+
+
 
 
   
