@@ -43,6 +43,11 @@
 - Implemented Interfaces and Multiple Inheritance using Multiple Interfaces
 - Studies abour enum
 
+# 1/11/25
+
+- Solved the employee wage problem using oops
+- Considering separate use cases
+
 
 
 
