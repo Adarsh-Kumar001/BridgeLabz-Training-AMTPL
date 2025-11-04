@@ -48,7 +48,16 @@
 - Solved the employee wage problem using oops
 - Considering separate use cases
 
+# 3/11/25
 
+- Practised some questions on C#
+- Studied and implemented exceptional handling in C#
+
+# 4/11/25
+
+- Implemneted address book problem
+- The feature to add, remove, search and delete from the address book.
+  
 
 
   
