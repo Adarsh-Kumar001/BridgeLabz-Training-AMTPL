@@ -6,17 +6,26 @@ class Program
     {
         int isFullTime = 1;
 
+        int EmpRatePerHour = 20;
+
+        int EmpHours = 0;
+        int EmpWage = 0;
+
         Random rndm = new Random();
 
         int EmpCheck = rndm.Next(0, 1);
 
         if( EmpCheck == isFullTime)
         {
-            Console.WriteLine("Employee is present");
+            EmpHours = 8;
         }
         else
         {
-            Console.WriteLine("Employee is absent");
+            EmpHours = 4;
         }
+
+        EmpWage = EmpHours * EmpRatePerHour;
+
+        Console.WriteLine("Employee wage is: " + EmpWage); //
     }
 }
