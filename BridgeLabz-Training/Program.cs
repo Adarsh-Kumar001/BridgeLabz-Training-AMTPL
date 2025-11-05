@@ -1,22 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-class Program
+namespace BridgeLabz_Training
 {
-    static void Main(string[] args)
+    internal class Program
     {
-        int isFullTime = 1;
-
-        Random rndm = new Random();
-
-        int EmpCheck = rndm.Next(0, 1);
-
-        if( EmpCheck == isFullTime)
-        {
-            Console.WriteLine("Employee is present");
-        }
-        else
-        {
-            Console.WriteLine("Employee is absent");
-        }
     }
 }
