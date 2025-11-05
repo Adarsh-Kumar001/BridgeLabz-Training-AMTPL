@@ -26,6 +26,6 @@ class EmpWage
 
         EmpWage = EmpHours * EmpRatePerHour;
 
-        Console.WriteLine("Employee wage is: " + EmpWage);
+        Console.WriteLine("Employee wage is: " + EmpWage); //
     }
 }
