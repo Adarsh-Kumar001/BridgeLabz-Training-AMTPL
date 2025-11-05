@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Program
+class EmpWage
 {
     static void Main(string[] args)
     {
