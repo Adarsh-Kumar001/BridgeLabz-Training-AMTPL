@@ -45,8 +45,8 @@
 
 # 1/11/25
 
-- Solved the employee wage problem using oops
-- Considering separate use cases
+- Solved the employee wage problem's basic use case using oops
+- Revised old concepts
 
 # 3/11/25
 
@@ -57,6 +57,14 @@
 
 - Implemneted address book problem
 - The feature to add, remove, search and delete from the address book.
+
+# 5/11/25
+
+- Created Separate brances for each Use case of emp wage prob
+- Merged the separate braches to dev and completed emp wage for all use cases
+- Revised oops
+
+# 6/11/25
   
 
 
