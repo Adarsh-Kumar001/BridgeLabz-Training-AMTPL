@@ -4,22 +4,14 @@ class Program
 {
     public const int isFullTime = 1;
     public const int isParttime = 2;
-    public const int EmpRatePerHour = 20;
-    public const int NoOfWorkingDays = 20;
-    public const int MaxHoursInMonths = 10;
-
-    static void Main(string[] args)
+    
+    public static int ComputeEmpWage(string company, int empRatePerHour, int noOfWorkingDays, int maxHoursPerMonth)
     {
+        int empHours = 0, totalEmpHours = 0, totalWorkingDays = 0;
 
-
-        int EmpHours = 0;
-        int TotalEmpHours = 0;
-        int TotalWorkingDays = 0;
-
-        while(TotalWorkingDays <= MaxHoursInMonths && TotalWorkingDays < NoOfWorkingDays)
-        
+        while(totalEmpHours <= maxHoursPerMonth && totalWorkingDays < noOfWorkingDays)
         {
-            TotalWorkingDays++;
+            totalWorkingDays++;
 
             Random rndm = new Random();
 
@@ -28,22 +20,26 @@ class Program
             switch (EmpCheck)
             {
                 case isFullTime:
-                    EmpHours = 8;
+                    empHours = 8;
                     break;
                 case isParttime:
-                    EmpHours = 4;
+                    empHours = 4;
                     break;
                 default:
-                    EmpHours = 0;
+                    empHours = 0;
                     break;
             }
 
-            TotalEmpHours += EmpHours;
-     
-
+            totalEmpHours += empHours;
         }
+        int totalEmpWage = totalEmpHours * empRatePerHour;
+        Console.WriteLine("Total Employee wage of company"+ company+" is: " + totalEmpWage);
+        return totalEmpWage;    
+    }
 
-        int totalEmpWage = TotalEmpHours * EmpRatePerHour;
-        Console.WriteLine("Total Employee wage is: " + totalEmpWage); //
+    static void Main(string[] args)
+    {
+
+        ComputeEmpWage("ABC", 20, 2, 10);
     }
 }
