@@ -66,6 +66,7 @@
 
 # 6/11/25
   
-
+- Studied about Regular expressions and regex in c#
+- Learned to implement it in various scenario
 
   
