@@ -6,6 +6,7 @@
     <RootNamespace>BridgeLabz_Training</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>BridgeLabz_Training.genericclass.DemoGenericClass</StartupObject>
   </PropertyGroup>
 
 </Project>
