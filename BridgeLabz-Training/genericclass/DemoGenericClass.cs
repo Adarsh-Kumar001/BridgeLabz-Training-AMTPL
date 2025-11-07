@@ -16,6 +16,11 @@ namespace BridgeLabz_Training.genericclass
 
             GenericClass<string> obj2 = new GenericClass<string>("Hey");
             obj2.DisplayValue();
+
+            GenericClass2<string, int> obj3 = new GenericClass2<string, int>();
+            obj3.data1 = "hey";
+            obj3.data2 = 7;
+            obj3.DisplayValue();
         }
 
     }

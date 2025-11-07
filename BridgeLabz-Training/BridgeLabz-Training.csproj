@@ -9,4 +9,8 @@
     <StartupObject>BridgeLabz_Training.genericclass.DemoGenericClass</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="collections\" />
+  </ItemGroup>
+
 </Project>
