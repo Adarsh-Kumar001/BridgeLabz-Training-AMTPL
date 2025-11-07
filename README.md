@@ -71,7 +71,7 @@
 
 # 7/11/25
 
-- Studies about collections in c#
-- List,
+- Studies about collections in c# and implemented few like Lists and arrays.
+- Studied and implemented generic classes
 
   
