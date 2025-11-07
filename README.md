@@ -69,4 +69,9 @@
 - Studied about Regular expressions and regex in c#
 - Learned to implement it in various scenario
 
+# 7/11/25
+
+- Studies about collections in c#
+- List,
+
   
