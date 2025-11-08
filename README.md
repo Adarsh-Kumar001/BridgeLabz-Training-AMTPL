@@ -74,4 +74,9 @@
 - Studies about collections in c# and implemented few like Lists and arrays.
 - Studied and implemented generic classes.
 
+# 8/11/25
+
+- Studied and implemented collections like queues and dictionary.
+- Solved some problems using collections like count freq of elements in a strings.
+- 
   
