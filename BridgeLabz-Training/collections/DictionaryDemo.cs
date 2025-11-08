@@ -11,7 +11,7 @@ namespace BridgeLabz_Training.collections
         static void Main(string[] args)
         {
 
-              // count freq of chars in string
+            // count freq of chars in string
 
 
             Dictionary<char, int> dict = new Dictionary<char, int>();
