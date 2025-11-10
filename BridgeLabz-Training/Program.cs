@@ -1,45 +1,48 @@
-﻿using System;
+﻿using BridgeLabz_Training;
+using System;
 
-class Program
-{
-    public const int isFullTime = 1;
-    public const int isParttime = 2;
-    
-    public static int ComputeEmpWage(string company, int empRatePerHour, int noOfWorkingDays, int maxHoursPerMonth)
-    {
-        int empHours = 0, totalEmpHours = 0, totalWorkingDays = 0;
-
-        while(totalEmpHours <= maxHoursPerMonth && totalWorkingDays < noOfWorkingDays)
-        {
-            totalWorkingDays++;
-
-            Random rndm = new Random();
-
-            int EmpCheck = rndm.Next(0, 3);
-
-            switch (EmpCheck)
-            {
-                case isFullTime:
-                    empHours = 8;
-                    break;
-                case isParttime:
-                    empHours = 4;
-                    break;
-                default:
-                    empHours = 0;
-                    break;
-            }
-
-            totalEmpHours += empHours;
-        }
-        int totalEmpWage = totalEmpHours * empRatePerHour;
-        Console.WriteLine("Total Employee wage of company"+ company+" is: " + totalEmpWage);
-        return totalEmpWage;    
-    }
+class Program 
+{ 
 
     static void Main(string[] args)
     {
+        Library library = new Library();
 
-        ComputeEmpWage("ABC", 20, 2, 10);
+        Book b1 = new Book();
+        b1.Id = 1;
+        b1.Name = "Book 1";
+        b1.Author = "adarsh";
+        b1.Isbn = "123D";
+
+        library.AddBook(b1);
+        
+
+        Book b2 = new Book();
+        b2.Id = 2;
+        b2.Name = "Book 2";
+        b2.Author = "Adarsh";
+        b2.Isbn = "12345";
+
+        library.AddBook(b2);
+
+        library.DisplayBooks();
+
+        //library.RemoveBook(b2);
+          
+ 
+
+        library.DisplayBooks();
+
+        Book b3 = new Book();
+        b2.Id = 2;
+        b2.Name = "Book 2";
+        b2.Author = "Adarsh Kumar";
+        b2.Isbn = "1234566666";
+
+        library.UpdateBook(b2);
+
+        library.DisplayBooks();
+
+
     }
 }
