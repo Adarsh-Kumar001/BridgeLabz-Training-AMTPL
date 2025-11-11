@@ -90,7 +90,6 @@
 - Bank Management System and Food Menu Billing System
 - Revised all collections
 
-# 12/11/25
 
 
 
