@@ -78,5 +78,16 @@
 
 - Studied and implemented collections like queues and dictionary.
 - Solved some problems using collections like count freq of elements in a strings.
-- 
-  
+
+# 10/11/25
+
+- Revised all previous studied topics
+- Implemented hashset and solved few problems
+
+# 11/11/25
+
+- Implemented two problems using OOPs
+- Bank Management System and Food Menu Billing System
+- Revised all collections
+
+
