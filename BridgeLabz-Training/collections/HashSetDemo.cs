@@ -13,10 +13,25 @@ namespace BridgeLabz_Training.collections
         //Implemented using hash table internally. 
         //Provides fast lookup, addition and deletion (average O(1) time complexity).
 
-        HashSet<int> hs = new HashSet<int>();
+        static void Main(string[] args)
+        {
+            HashSet<int> hs = new HashSet<int>();
+
+            hs.Add(10);
+            hs.Add(20);
+            hs.Add(hs.Count);
+            hs.Remove(10);
+
+            if (hs.Contains(20))
+            {
+                foreach(int i in hs)
+                {
+                    Console.Write(i+" ");
+                }
+            }
+
+        }
 
 
-
-
-    }
+}
 }
