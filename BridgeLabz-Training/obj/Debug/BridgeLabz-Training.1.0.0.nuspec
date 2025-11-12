@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BridgeLabz-Training</id>
+    <version>1.0.0</version>
+    <authors>BridgeLabz-Training</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="b4f717b8674246cee975520e1e5795f571daaa84" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\bin\Debug\net8.0\BridgeLabz-Training.runtimeconfig.json" target="lib\net8.0\BridgeLabz-Training.runtimeconfig.json" />
+    <file src="C:\Users\adars\source\repos\BridgeLabz-Training\BridgeLabz-Training\bin\Debug\net8.0\BridgeLabz-Training.dll" target="lib\net8.0\BridgeLabz-Training.dll" />
+  </files>
+</package>
