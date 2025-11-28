@@ -112,6 +112,7 @@
 
 # 28/11/25
 
-
+- Studies about sorting with C#
+- Multiple aorting algorithms like buuble sort, merge sort, insertion sort..
 
 
