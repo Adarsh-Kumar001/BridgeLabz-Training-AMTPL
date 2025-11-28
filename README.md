@@ -90,6 +90,22 @@
 - Bank Management System and Food Menu Billing System
 - Revised all collections
 
+# 12/11/25
+
+- Solved few DSA questions using C#
+
+# 13/11/25
+
+- Studied and Implemented LinkedList 
+- Revised all other COllections studies previously 
+
+# 14/11/25
+
+- Revised few OOPS concepts and DSA topics
+
+---end semester exams break---
+
+# 28/11/25
 
 
 
