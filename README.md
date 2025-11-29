@@ -113,6 +113,11 @@
 # 28/11/25
 
 - Studies about sorting with C#
-- Multiple aorting algorithms like buuble sort, merge sort, insertion sort..
+- Multiple aorting algorithms like bubble sort, merge sort, insertion sort..
+
+# 29/11/25
+
+- Studied collections in detail  
+
 
 
