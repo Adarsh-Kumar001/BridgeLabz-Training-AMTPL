@@ -117,7 +117,13 @@
 
 # 29/11/25
 
-- Studied collections in detail  
+- Studied collections in detail
+- Revised OOPS 
+
+# 1/12/25
+
+- Studied and implemented HashTable and few other non generic collections
+- Stack queue and ArrayList
 
 
 
