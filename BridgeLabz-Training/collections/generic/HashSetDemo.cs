@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace BridgeLabz_Training.collections
+namespace BridgeLabz_Training.collections.generic
 {
     internal class HashSetDemo
     {
