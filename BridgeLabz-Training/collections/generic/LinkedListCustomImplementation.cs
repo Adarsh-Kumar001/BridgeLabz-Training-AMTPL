@@ -53,6 +53,36 @@ namespace BridgeLabz_Training.collections.generic
             
         }
 
+        internal void RemoveFront()
+        {
+            if(head == null)
+            {
+                Console.WriteLine("Cant remove, no element");
+            }
+            else
+            {
+                head = head.next;
+
+            }
+        }
+
+        internal void RemoveBack()
+        {
+            if(head == null)
+            {
+                Console.WriteLine("Cant remove, no elements");
+            }
+            else
+            {
+                var temp = head;
+                while(temp.next != null && temp.next.next != null)
+                {
+                    temp = temp.next;
+                }
+                temp.next = null;
+            }
+        }
+
         internal void Display()
         {
             Node temp = head;
@@ -75,6 +105,10 @@ namespace BridgeLabz_Training.collections.generic
             sll.InsertFront(sll, 2);
             sll.InsertFront(sll, 1);
             sll.InsertBack(sll, 4);
+            sll.InsertBack(sll, 5);
+            sll.InsertBack(sll, 6);
+            sll.RemoveBack();
+            sll.RemoveFront();
             sll.Display();
         }
     }
