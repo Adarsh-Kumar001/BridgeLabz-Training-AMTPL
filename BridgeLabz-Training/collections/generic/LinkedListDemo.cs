@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BridgeLabz_Training.collections
+namespace BridgeLabz_Training.collections.generic
 {
     internal class LinkedListDemo
     {
