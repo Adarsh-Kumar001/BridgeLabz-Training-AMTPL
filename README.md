@@ -125,5 +125,20 @@
 - Studied and implemented HashTable and few other non generic collections
 - Stack queue and ArrayList
 
+# 2/12/25
+
+- Implemented custom singly linked list
+- added functions to add, remove and display elements at front and back
+
+# 3/12/25
+
+- Implemented custom doubly linked list
+- added functions to add, remove and siaply elements at front and back.
+
+# 4/12/25
+
+- Studies about delegates and implemented it
+- Revised collections and oops 
+
 
 
