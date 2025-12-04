@@ -19,7 +19,6 @@ namespace BridgeLabz_Training.delegates
         public delegate int MathOperations(int x, int y);   //MathOperations is a delegate which takes x and y and returns int
 
 
-
         //functions matching the delegate 
         static int Add(int a, int b) => a + b;
         static int Sub(int a, int b) => a - b;
