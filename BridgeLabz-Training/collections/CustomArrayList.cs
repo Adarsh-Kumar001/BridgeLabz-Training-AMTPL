@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 namespace BridgeLabz_Training.collections
 {
 
-    internal class MyArrayList<T>
-    {
-        public T[] arr = new T[5];
+    internal class MyArrayList<T> 
+    { 
+        public T[] arr = new T[5];     
 
         public int count = 0;
 
         public void Add(T item)
         {
-            EnsureCapacityInArray();
+            EnsureCapacityInArray();    
 
             arr[count] = item;
             count++;

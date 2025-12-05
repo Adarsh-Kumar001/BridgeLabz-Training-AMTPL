@@ -93,6 +93,57 @@ namespace BridgeLabz_Training.collections.generic
                 temp = temp.next;
             }
         }
+
+        internal void ReverseDisplay()
+        {
+            Node temp = head;
+
+            List<int> elements = new List<int>();
+
+
+            while (temp != null)
+            {
+                elements.Add(temp.data);
+                temp = temp.next;
+            }
+
+            elements.Reverse();
+
+            foreach(int i in elements)
+            {
+                Console.WriteLine(i);   
+            }
+        }
+
+        internal void Search(int data)
+        {
+            var temp = head;
+
+            bool found = false;
+
+            int index = 1;
+            
+            while (temp != null)
+            {
+                if(temp.data == data)
+                {
+                    Console.WriteLine("element found at index " + index);
+                    found = true;
+                }
+                temp = temp.next;
+                index++;
+            }
+
+            if(found == false)
+            {
+                Console.WriteLine("No " + data + " found in the linked list");
+                return;
+            }
+            else
+            {
+                return;
+            }
+        }
             
     }
   
@@ -110,6 +161,10 @@ namespace BridgeLabz_Training.collections.generic
             sll.RemoveBack();
             sll.RemoveFront();
             sll.Display();
+            Console.WriteLine(" ");
+            sll.ReverseDisplay();
+            Console.WriteLine(" ");
+            sll.Search(4);
         }
     }
 }

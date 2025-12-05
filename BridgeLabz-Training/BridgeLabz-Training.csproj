@@ -6,7 +6,7 @@
     <RootNamespace>BridgeLabz_Training</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>BridgeLabz_Training.collections.CustomArrayList</StartupObject>
+    <StartupObject>BridgeLabz_Training.collections.generic.DoublyLinkedListCustomImplementation</StartupObject>
   </PropertyGroup>
 
 </Project>

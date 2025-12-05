@@ -98,6 +98,24 @@ namespace BridgeLabz_Training.collections.generic
             }
         }
 
+        internal void RemoveByData(int data)
+        {
+            var temp = head;
+
+            while (temp != null)
+            {
+                if(temp.data == data)
+                {
+                    temp.prev.next = temp.next;
+                    temp.next.prev = temp.prev;
+
+                    return;
+                }
+
+                temp = temp.next;
+            }
+        }
+
         internal void Display()
         {
 
@@ -122,8 +140,10 @@ namespace BridgeLabz_Training.collections.generic
             dll.InsertBack(3);
             dll.InsertBack(4);
             dll.InsertBack(5);
+            dll.InsertBack(6);
             dll.RemoveBack();
             dll.RemoveFront();
+            dll.RemoveByData(4);
             dll.Display();
             
         }
