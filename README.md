@@ -138,7 +138,20 @@
 # 4/12/25
 
 - Studies about delegates and implemented it
-- Revised collections and oops 
+- Revised collections and oops
+
+# 5/12/25
+
+- Implemented custom ArrayList using array.
+- Added functions to add, remove, automatically grow the array.
+- Added few more functions to custom linked list.
+
+# 6/12/25
+
+- Fixed some bugs in custom linked list implementation
+- Revised everything studies till now.
+
+
 
 
 
