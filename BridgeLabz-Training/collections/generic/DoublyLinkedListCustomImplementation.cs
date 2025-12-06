@@ -24,6 +24,8 @@ namespace BridgeLabz_Training.collections.generic
     {
         internal DNode head;
 
+        internal DNode tail;
+
         internal void InsertFront(int new_data)
         {
             DNode new_node = new DNode(new_data);
@@ -32,6 +34,7 @@ namespace BridgeLabz_Training.collections.generic
             {
                 
                 head = new_node;
+                tail = new_node;
             }
             else
             {
@@ -50,6 +53,7 @@ namespace BridgeLabz_Training.collections.generic
             if(head == null)
             {
                 head = new_node;
+                tail = new_node;
             }
             else
             {
@@ -61,8 +65,10 @@ namespace BridgeLabz_Training.collections.generic
              
                 }
 
+
                 temp.next = new_node;
                 new_node.prev = temp;
+                tail = new_node;
             }
         }
 
@@ -74,8 +80,9 @@ namespace BridgeLabz_Training.collections.generic
             }
             else
             {
-               
+                head.next.prev = null;
                 head = head.next;
+
             }
         }
 
@@ -86,15 +93,9 @@ namespace BridgeLabz_Training.collections.generic
                 Console.WriteLine("cant remove, no element in linked list");
             }
             else
-            {
-                var temp = head;
-                while(temp.next.next != null)
-                {
-                    temp = temp.next;
-                }
-
-                temp.next.prev = null;
-                temp.next = null;
+            { 
+                tail = tail.prev;
+                tail.next = null;
             }
         }
 

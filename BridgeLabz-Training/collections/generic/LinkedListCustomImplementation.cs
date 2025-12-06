@@ -33,7 +33,7 @@ namespace BridgeLabz_Training.collections.generic
 
         internal void InsertBack(SingleLinkedList singleLL, int new_data)
         {
-            Node new_node = new Node(new_data);
+            Node new_node = new Node(new_data); 
 
             if (singleLL.head == null)
             {
