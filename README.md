@@ -151,6 +151,9 @@
 - Fixed some bugs in custom linked list implementation
 - Revised everything studies till now.
 
+# 8/12/25
+
+- Revised OOPs, Exeptions, Delegates, 
 
 
 
