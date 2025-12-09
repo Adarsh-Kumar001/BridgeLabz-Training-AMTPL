@@ -153,7 +153,12 @@
 
 # 8/12/25
 
-- Revised OOPs, Exeptions, Delegates, 
+- Revised OOPs, Exeptions, Delegates,
+
+# 9/12/25
+
+- Studied Nunit testing
+- Implemented it 
 
 
 
