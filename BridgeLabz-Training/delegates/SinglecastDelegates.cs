@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BridgeLabz_Training.delegates
 {
-    internal class Delegates
+    internal class SinglecastDelegates       //singlecast delegates point to a single function
     {
 
         //delegates are a type safe pointer to functions 
