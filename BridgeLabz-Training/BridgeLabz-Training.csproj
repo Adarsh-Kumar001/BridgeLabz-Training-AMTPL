@@ -6,7 +6,7 @@
     <RootNamespace>BridgeLabz_Training</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>BridgeLabz_Training.delegates.MulticastDelegatesDemo</StartupObject>
+    <StartupObject>BridgeLabz_Training.delegates.BuiltinDelegates</StartupObject>
   </PropertyGroup>
 
 </Project>
