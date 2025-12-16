@@ -8,7 +8,7 @@ namespace BridgeLabz_Training.events.BuiltInEvent.BuiltInEventWithData
 {
     internal class Subscriber
     {
-        public void DownloadComplete(object sender, DownloadEventArgs e)
+        public void DownloadComplete(object sender, DownloadEventArgs e)               //recieves the data from publisher after event occurs and this prints after event occurs
         {
             Console.WriteLine("Download Complete of the file " + e.FileName + " of size " + e.sizeMB + " mb. ");
         }
