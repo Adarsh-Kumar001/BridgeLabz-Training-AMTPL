@@ -12,15 +12,15 @@ namespace BridgeLabz_Training.events.BuiltInEvent.BuiltInEventWithData
    
         public void StartDownload()
         {
-            Console.WriteLine("Downloading...");
-            DownloadFinished(new DownloadEventArgs
+            Console.WriteLine("Downloading...");              //raises the event after download finished
+            DownloadFinished(new DownloadEventArgs        
             {
                 FileName = "test.doc",
                 sizeMB = 200
             });
         }
 
-        public void DownloadFinished(DownloadEventArgs e)
+        public void DownloadFinished(DownloadEventArgs e)      //invokes the event with the DownloadEventArgs data type
         {
             DownloadCompleted?.Invoke(this, e);
         }
