@@ -6,7 +6,7 @@
     <RootNamespace>BridgeLabz_Training</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>BridgeLabz_Training.delegates.BuiltinDelegates</StartupObject>
+    <StartupObject>BridgeLabz_Training.events.BuiltInEvent.BuiltInEventWithData.BuiltineventwithdataDemo</StartupObject>
   </PropertyGroup>
 
 </Project>
