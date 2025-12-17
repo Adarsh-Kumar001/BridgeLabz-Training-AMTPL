@@ -20,7 +20,7 @@ namespace BridgeLabz_Training.closures
         {
             int number = 10;
 
-            Func<int, int> multiply = x => x * number; //number is outside lambda but it remembers it
+            Func<int, int> multiply = x => x * number; //number is outside lambda but it remembers it.
 
         }
     }
