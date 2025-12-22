@@ -158,7 +158,57 @@
 # 9/12/25
 
 - Studied Nunit testing
-- Implemented it 
+- Implemented it
+
+# 10/12/25
+
+- Deep dive into Delegates in C#
+- Explored Types of Delegates: Singlecast, Multicast, Built in
+- Implemented Multicast Delegate with sample code
+
+# 11/12/25
+
+- Studied Events in C#
+- Implemented Custom Event using delegates
+- Learned about EventHandler and EventArgs
+
+# 12/12/25
+
+- Explored Lambda Expressions
+- Worked with LINQ to filter and manipulate data using lambda expressions
+
+# 13/12/25
+
+- Studied Closures in C#
+- Implemnted more linq functions 
+
+
+# 15/12/25
+
+- Revised Reflection in C#
+- Implemented reflection 
+- Used MethodInfo and PropertyInfo to explore object properties and methods
+
+# 16/12/25
+
+- Explored SOLID Principles in C#
+- Studied examples for Single Responsibility, Open/Closed, and Liskov Substitution Principles
+
+# 17/12/25
+
+- Studied ADO.NET for data access
+- Worked with SqlConnection, SqlCommand, and SqlDataReader
+- Connected to SQL Server from C# and performed operations
+
+# 18/12/25
+
+- Worked with SQL queries for data manipulation
+- Practiced writing Joins, Aggregate functions in SQL
+
+# 19/12/25
+
+- Revised few concepts 
+
 
 
 
