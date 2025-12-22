@@ -11,7 +11,7 @@ namespace BridgeLabz_Training.delegates
     internal class SinglecastDelegates       //singlecast delegates point to a single function
     {
 
-        //delegates are a type safe pointer to functions       //anonymous function sare cretaed suing delegats
+        //delegates are a type safe pointer to functions       //anonymous functions are cretaed using delegats
         //holds references to a function, their signatures must match.
         //we can invoke the method through the delegate
         //it helps treat function as variable 
