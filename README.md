@@ -215,7 +215,7 @@
 
 - Practised some more SQL queries on both Sql Express and C#
 
-# 21/12/25
+# 22/12/25
 
 - Learned abut transactions and implemented it
 
