@@ -192,22 +192,32 @@
 # 16/12/25
 
 - Explored SOLID Principles in C#
-- Studied examples for Single Responsibility, Open/Closed, and Liskov Substitution Principles
+- Studied examples for Single Responsibility, Open/Closed, and Liskov Substitution Principles,
+- Also studied about DRY AND KISS.
 
 # 17/12/25
 
-- Studied ADO.NET for data access
-- Worked with SqlConnection, SqlCommand, and SqlDataReader
-- Connected to SQL Server from C# and performed operations
+- Installed and setup of Sql Express
+- Practised some Sql queries
 
 # 18/12/25
+
+- Studied ADO.NET in C# for connecting to Sql
+- Worked with SqlConnection, SqlCommand, and SqlDataReader
+- Connected to SQL Server from C# 
+
+# 19/12/25
 
 - Worked with SQL queries for data manipulation
 - Practiced writing Joins, Aggregate functions in SQL
 
-# 19/12/25
+# 20/12/25
 
-- Revised few concepts 
+- Practised some more SQL queries on both Sql Express and C#
+
+# 21/12/25
+
+- Learned abut transactions and implemented it
 
 
 
