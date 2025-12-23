@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BridgeLabz-Training")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9dde0b873c93a6a63135445d37ef94a94b1bb66d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cef9c5eec2a06e1bf5e8e70dc1672158dcfc35fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("BridgeLabz-Training")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BridgeLabz-Training")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
